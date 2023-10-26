@@ -113,7 +113,7 @@ body::before{
   position: relative;
   display: flex;
   justify-content: center;
-  bottom: 5%;
+  bottom: 10%;
 }
 .dot {
   width: 10px;
