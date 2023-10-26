@@ -44,7 +44,7 @@
 
 }
 .logo{
-    color: #fff;
+
     margin: 1rem;
 
 text-align: center;
@@ -53,6 +53,9 @@ font-size: 2rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+.logo>h1{
+    color: #fff;
 }
 .right-container{
     display: flex;
