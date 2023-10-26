@@ -1,0 +1,51 @@
+.underline-hover {
+    position: relative; 
+    /* border-bottom: 2px solid transparent; */
+    border-bottom: 0px solid #CC018B ;
+    font-size: 1rem;
+    transition: border-bottom .3s ease, font-size .3s ease;
+
+
+
+}
+
+.underline-hover.active:hover{
+    color: #fff;
+    font-size: 1.2rem;
+    border-bottom: 0px  ;
+}
+
+
+
+
+
+.underline-hover:hover {
+
+    font-size: 1.1rem;
+    border-bottom: 5px solid #CC018B ;
+}
+.fb{
+    transition: all .3s ease;
+}
+.fb:hover{
+    fill: #0f01cc;
+}
+
+
+.whatsapp:hover{
+    fill: #039519;
+    stroke: #039519;
+}
+.whatsapp{
+    transition: all .3s ease;
+}
+.instagram:hover{
+    fill: #e700b5;
+    stroke: #031995;
+}
+.instagram{
+    transition: all .3s ease;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
